@@ -1,0 +1,23 @@
+{
+  "name": "kijiji-clone",
+  "version": "1.0.0",
+  "description": "kijiji-clone",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass sass/main.scss css/main.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allispeck/kijiji-clone.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allispeck/kijiji-clone/issues"
+  },
+  "homepage": "https://github.com/allispeck/kijiji-clone#readme",
+  "dependencies": {
+    "live-server": "^1.2.1",
+    "node-sass": "^5.0.0"
+  }
+}
