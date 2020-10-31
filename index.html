@@ -2,10 +2,48 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <meta charset="UTF-8">
     <title>Kijiji Clone</title>
 </head>
 <body>
-<div class="test">Hello World</div>
+<nav class="nav">
+    <div class="nav__logo">
+        <img src="images/logo.png">
+    </div>
+
+    <form class="nav__search search">
+        <label hidden for="search">Search for anything</label>
+        <input type="text" id="search" class="search__text-search" placeholder="Search for anything...">
+
+        <label hidden for="categories">Categories</label>
+        <select name="categories" id="categories">
+            <option value="option_1" disabled>All Categories</option>
+            <option value="option_2">Some Option</option>
+            <option value="option_3">Some Option</option>
+            <option value="option_4">Some Option</option>
+            <option value="option_5">Some Option</option>
+        </select>
+
+        <label hidden for="location">Location</label>
+        <i class="fas fa-map-marker-alt location-icon"></i>
+        <input type="text" id="location" class="search__location" value="Toronto (GTA)">
+
+        <button class="search-btn"><i class="fas fa-search"></i></button>
+    </form>
+
+    <div class="nav__icons">
+        <i class="fas fa-heart"></i>
+        <i class="far fa-bell"></i>
+        <i class="far fa-comment"></i>
+    </div>
+
+    <img src="http://pcas.io/300/300?seed=allyBerry" class="nav__profile">
+
+    <div class="nav__submit">
+        <button class="primary-btn">Post Ad</button>
+    </div>
+</nav>
 </body>
 </html>
